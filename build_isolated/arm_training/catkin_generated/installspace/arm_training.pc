@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/install_isolated
+
+Name: arm_training
+Description: Description of arm_training
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,3 @@
+finger_lowerlimit finger_upperlimit finger_r
+0.0 0.04 0.03
+0.0 0.04 0.03 

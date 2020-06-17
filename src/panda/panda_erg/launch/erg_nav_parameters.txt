@@ -1,0 +1,2 @@
+eta zeta_q delta_q zeta_obst_sphere delta_obst_sphere zeta_obst_cylinder delta_obst_cylinder
+0.01 0.17 0.0 0.3 0.0 0.3 0.0

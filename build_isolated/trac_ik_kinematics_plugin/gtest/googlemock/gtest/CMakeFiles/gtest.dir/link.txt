@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++0x   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/liu/Multi_Robot_System/build_isolated/trac_ik_kinematics_plugin/gtest/googlemock/gtest/src -Wl,-rpath,/home/liu/Multi_Robot_System/build_isolated/trac_ik_kinematics_plugin/gtest/googlemock/gtest/src -lpthread 

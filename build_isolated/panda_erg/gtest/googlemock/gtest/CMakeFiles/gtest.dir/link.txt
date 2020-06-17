@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++14  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/liu/Multi_Robot_System/build_isolated/panda_erg/gtest/googlemock/gtest/src -Wl,-rpath,/home/liu/Multi_Robot_System/build_isolated/panda_erg/gtest/googlemock/gtest/src -lpthread 

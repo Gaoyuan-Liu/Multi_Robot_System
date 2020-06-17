@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/devel_isolated/trac_ik_lib
+
+Name: trac_ik_lib
+Description: Description of trac_ik_lib
+Version: 1.5.1
+Cflags: -I/home/liu/Multi_Robot_System/src/panda/trac_ik/trac_ik_lib/include -I/usr/local/include
+Libs: -L${prefix}/lib -ltrac_ik /usr/local/lib/libboost_date_time.so
+Requires: kdl_parser roscpp urdf

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/liu/Multi_Robot_System/devel_isolated/python_orocos_kdl/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/install_isolated
+
+Name: ee_command
+Description: Description of ee_command
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

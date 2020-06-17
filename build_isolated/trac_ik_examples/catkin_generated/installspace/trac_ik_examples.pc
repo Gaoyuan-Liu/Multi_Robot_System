@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/install_isolated
+
+Name: trac_ik_examples
+Description: Description of trac_ik_examples
+Version: 1.5.1
+Cflags: -I/usr/local/include -I/home/liu/Multi_Robot_System/devel_isolated/orocos_kdl/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3
+Libs: -L${prefix}/lib /usr/local/lib/libboost_date_time.so /home/liu/Multi_Robot_System/devel_isolated/orocos_kdl/lib/liborocos-kdl.so.1.4.0
+Requires: trac_ik_lib

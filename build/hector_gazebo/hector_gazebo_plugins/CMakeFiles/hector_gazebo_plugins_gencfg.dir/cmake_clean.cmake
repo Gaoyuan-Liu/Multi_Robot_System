@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/hector_gazebo_plugins_gencfg"
+  "/home/liu/Multi_Robot_System/devel/include/hector_gazebo_plugins/SensorModelConfig.h"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/SensorModelConfig.dox"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/SensorModelConfig-usage.dox"
+  "/home/liu/Multi_Robot_System/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/SensorModelConfig.py"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/SensorModelConfig.wikidoc"
+  "/home/liu/Multi_Robot_System/devel/include/hector_gazebo_plugins/GNSSConfig.h"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/GNSSConfig.dox"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/GNSSConfig-usage.dox"
+  "/home/liu/Multi_Robot_System/devel/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.py"
+  "/home/liu/Multi_Robot_System/devel/share/hector_gazebo_plugins/docs/GNSSConfig.wikidoc"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/hector_gazebo_plugins_gencfg.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

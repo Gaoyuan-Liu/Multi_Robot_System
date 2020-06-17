@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<launch>
+  <arg name="robot_ip" />
+  <arg name="trajectory_method" default="1" />
+  <arg name="load_gripper" default="true" />
+  <!--<include file="$(find franka_control)/launch/franka_control.launch" >
+    <arg name="robot_ip" value="$(arg robot_ip)" />
+    <arg name="load_gripper" value="$(arg load_gripper)" />
+  </include>-->
+
+  <param name="/hiro_panda/trajectory_method" type="int" value="$(arg trajectory_method)" />
+  <rosparam command="load" file="$(find hiro_panda_ik)/config/panda_pose_controllers.yaml" />
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/panda" args="panda_pose_controller"/>
+</launch>

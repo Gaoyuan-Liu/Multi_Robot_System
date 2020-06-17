@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/devel
+
+Name: hiro_panda_ik
+Description: Description of hiro_panda_ik
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

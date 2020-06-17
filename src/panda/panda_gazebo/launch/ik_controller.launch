@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <!-- spawn panda robot in gazebo world -->
+
+  <include file="$(find panda_gazebo)/launch/panda_world.launch">
+    <arg name="y" value="-1"/>
+  </include>
+  <group ns="arm">
+  <!-- ros_control panda effort launch file -->
+  <include file="$(find panda_control)/launch/panda_effortcontrol.launch" />
+  </group>
+  <!-- run effort control executable file-->
+  <node name="panda_trac_ik_taskspace" pkg="hiro_panda_ik" type="panda_trac_ik_taskspace" output="screen" />
+
+</launch>

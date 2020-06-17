@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_description
+
+Name: hector_quadrotor_description
+Description: Description of hector_quadrotor_description
+Version: 0.3.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

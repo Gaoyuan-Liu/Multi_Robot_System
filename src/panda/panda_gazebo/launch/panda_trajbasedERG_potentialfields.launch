@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- spawn panda robot in gazebo world -->
+  <!--include file="$(find panda_gazebo)/launch/panda_world.launch" />-->
+  <include file="$(find panda_gazebo)/launch/panda_with_environment.launch" />
+
+  <!-- ros_control panda effort launch file -->
+  <include file="$(find panda_control)/launch/panda_effortcontrol.launch" />
+
+
+  <!-- run effort control executable file-->
+  <node name="panda_trajbasedERG_potentialfields" pkg="panda_erg" type="panda_trajbasedERG_potentialfields" output="screen" />
+
+
+
+
+
+</launch>
