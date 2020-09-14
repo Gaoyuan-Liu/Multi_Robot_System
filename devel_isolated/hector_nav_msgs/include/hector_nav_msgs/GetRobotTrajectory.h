@@ -57,8 +57,8 @@ struct DataType< ::hector_nav_msgs::GetRobotTrajectory > {
 };
 
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryRequest> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectory > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryRequest> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectory >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryRequest>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectoryRequest> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectory > 
+// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectoryRequest> should match
+// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectory >
 template<>
 struct DataType< ::hector_nav_msgs::GetRobotTrajectoryRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::hector_nav_msgs::GetRobotTrajectoryRequest>
   }
 };
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryResponse> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectory > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryResponse> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRobotTrajectory >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::hector_nav_msgs::GetRobotTrajectoryResponse>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectoryResponse> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectory > 
+// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectoryResponse> should match
+// service_traits::DataType< ::hector_nav_msgs::GetRobotTrajectory >
 template<>
 struct DataType< ::hector_nav_msgs::GetRobotTrajectoryResponse>
 {

@@ -9,11 +9,11 @@ import struct
 class GetRobotTrajectoryRequest(genpy.Message):
   _md5sum = "d41d8cd98f00b204e9800998ecf8427e"
   _type = "hector_nav_msgs/GetRobotTrajectoryRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
-
-
-
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 """
   __slots__ = []
@@ -61,7 +61,7 @@ class GetRobotTrajectoryRequest(genpy.Message):
       end = 0
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -85,7 +85,7 @@ class GetRobotTrajectoryRequest(genpy.Message):
       end = 0
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -105,7 +105,7 @@ import std_msgs.msg
 class GetRobotTrajectoryResponse(genpy.Message):
   _md5sum = "c7bd40129c5786fc26351edbd33b8d33"
   _type = "hector_nav_msgs/GetRobotTrajectoryResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """nav_msgs/Path trajectory
 
 
@@ -179,7 +179,7 @@ float64 w
     """
     if args or kwds:
       super(GetRobotTrajectoryResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.trajectory is None:
         self.trajectory = nav_msgs.msg.Path()
     else:
@@ -209,7 +209,8 @@ float64 w
       buff.write(_struct_I.pack(length))
       for val1 in self.trajectory.poses:
         _v1 = val1.header
-        buff.write(_get_struct_I().pack(_v1.seq))
+        _x = _v1.seq
+        buff.write(_get_struct_I().pack(_x))
         _v2 = _v1.stamp
         _x = _v2
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -289,7 +290,7 @@ float64 w
         self.trajectory.poses.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -311,7 +312,8 @@ float64 w
       buff.write(_struct_I.pack(length))
       for val1 in self.trajectory.poses:
         _v11 = val1.header
-        buff.write(_get_struct_I().pack(_v11.seq))
+        _x = _v11.seq
+        buff.write(_get_struct_I().pack(_x))
         _v12 = _v11.stamp
         _x = _v12
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -392,36 +394,36 @@ float64 w
         self.trajectory.poses.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_4d = None
-def _get_struct_4d():
-    global _struct_4d
-    if _struct_4d is None:
-        _struct_4d = struct.Struct("<4d")
-    return _struct_4d
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
 _struct_2I = None
 def _get_struct_2I():
     global _struct_2I
     if _struct_2I is None:
         _struct_2I = struct.Struct("<2I")
     return _struct_2I
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I
 _struct_3d = None
 def _get_struct_3d():
     global _struct_3d
     if _struct_3d is None:
         _struct_3d = struct.Struct("<3d")
     return _struct_3d
+_struct_4d = None
+def _get_struct_4d():
+    global _struct_4d
+    if _struct_4d is None:
+        _struct_4d = struct.Struct("<4d")
+    return _struct_4d
 class GetRobotTrajectory(object):
   _type          = 'hector_nav_msgs/GetRobotTrajectory'
   _md5sum = 'c7bd40129c5786fc26351edbd33b8d33'

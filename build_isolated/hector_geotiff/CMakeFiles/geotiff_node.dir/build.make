@@ -101,7 +101,6 @@ geotiff_node_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_geotiff/lib/hector_geotiff/geotiff_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so

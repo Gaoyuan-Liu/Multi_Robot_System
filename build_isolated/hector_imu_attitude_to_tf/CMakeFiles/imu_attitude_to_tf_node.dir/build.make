@@ -96,7 +96,6 @@ imu_attitude_to_tf_node_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /opt/ros/melodic/lib/libmessage_filters.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /opt/ros/melodic/lib/libtf2.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node: /opt/ros/melodic/lib/libroscpp_serialization.so

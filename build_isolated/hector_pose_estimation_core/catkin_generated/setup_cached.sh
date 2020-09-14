@@ -8,5 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/liu/Multi_Robot_System/devel_isolated/hector_pose_estimation_core:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/liu/Multi_Robot_System/devel_isolated/hector_pose_estimation_core/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/liu/Multi_Robot_System/devel_isolated/hector_pose_estimation_core/lib/pkgconfig:$PKG_CONFIG_PATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/liu/Multi_Robot_System/devel_isolated/hector_pose_estimation_core/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/liu/Multi_Robot_System/src/hector_localization/hector_pose_estimation_core:$ROS_PACKAGE_PATH"

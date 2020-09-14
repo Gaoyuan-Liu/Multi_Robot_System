@@ -130,7 +130,7 @@
 (setf (get hector_nav_msgs::GetSearchPositionRequest :md5sum-) "a28d7c2840927c12082b304156df4111")
 (setf (get hector_nav_msgs::GetSearchPositionRequest :datatype-) "hector_nav_msgs/GetSearchPositionRequest")
 (setf (get hector_nav_msgs::GetSearchPositionRequest :definition-)
-      "
+      "#Returns a suggested search/observation position for an object of interest located at ooi_pose
 
 geometry_msgs/PoseStamped ooi_pose
 float32 distance
@@ -231,7 +231,7 @@ float64 w
 (setf (get hector_nav_msgs::GetSearchPositionResponse :md5sum-) "a28d7c2840927c12082b304156df4111")
 (setf (get hector_nav_msgs::GetSearchPositionResponse :datatype-) "hector_nav_msgs/GetSearchPositionResponse")
 (setf (get hector_nav_msgs::GetSearchPositionResponse :definition-)
-      "
+      "#Returns a suggested search/observation position for an object of interest located at ooi_pose
 
 geometry_msgs/PoseStamped ooi_pose
 float32 distance

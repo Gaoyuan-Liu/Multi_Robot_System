@@ -54,6 +54,41 @@ struct ControllerState_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(MOTORS)
+  #undef MOTORS
+#endif
+#if defined(_WIN32) && defined(ATTITUDE)
+  #undef ATTITUDE
+#endif
+#if defined(_WIN32) && defined(VELOCITY)
+  #undef VELOCITY
+#endif
+#if defined(_WIN32) && defined(POSITION)
+  #undef POSITION
+#endif
+#if defined(_WIN32) && defined(TURNRATE)
+  #undef TURNRATE
+#endif
+#if defined(_WIN32) && defined(HEADING)
+  #undef HEADING
+#endif
+#if defined(_WIN32) && defined(CLIMBRATE)
+  #undef CLIMBRATE
+#endif
+#if defined(_WIN32) && defined(HEIGHT)
+  #undef HEIGHT
+#endif
+#if defined(_WIN32) && defined(MOTORS_RUNNING)
+  #undef MOTORS_RUNNING
+#endif
+#if defined(_WIN32) && defined(FLYING)
+  #undef FLYING
+#endif
+#if defined(_WIN32) && defined(AIRBORNE)
+  #undef AIRBORNE
+#endif
+
   enum {
     MOTORS = 1u,
     ATTITUDE = 2u,
@@ -112,6 +147,23 @@ ros::message_operations::Printer< ::hector_uav_msgs::ControllerState_<ContainerA
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::hector_uav_msgs::ControllerState_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::ControllerState_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.source == rhs.source &&
+    lhs.mode == rhs.mode &&
+    lhs.state == rhs.state;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::hector_uav_msgs::ControllerState_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::ControllerState_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace hector_uav_msgs
 
 namespace ros
@@ -119,12 +171,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'hector_uav_msgs': ['/home/liu/Multi_Robot_System/src/hector_quadrotor/hector_uav_msgs/msg', '/home/liu/Multi_Robot_System/devel_isolated/hector_uav_msgs/share/hector_uav_msgs/msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

@@ -101,9 +101,10 @@ public:
     // Subscribe to commanded twist (geometry_msgs/TwistStamped) and cmd_vel (geometry_msgs/Twist)
     twist_subscriber_ = root_nh.subscribe<geometry_msgs::TwistStamped>("command/twist", 1, boost::bind(
         &VelocityController::twistCommandCallback, this, _1));
-    //cmd_vel_subscriber_ = root_nh.subscribe<geometry_msgs::Twist>("cmd_vel", 1, boost::bind(
-        //&VelocityController::cmd_velCommandCallback, this, _1));
-
+/***liu***************************************/
+    cmd_vel_subscriber_ = root_nh.subscribe<geometry_msgs::Twist>("cmd_vel", 1, boost::bind(
+        &VelocityController::cmd_velCommandCallback, this, _1));
+/*********************************************/
     return true;
   }
 
@@ -157,8 +158,8 @@ public:
       twist_input_->preempt();
     }
   }
-
-  /*void cmd_velCommandCallback(const geometry_msgs::TwistConstPtr &command)
+/**liu****************************************************/
+  void cmd_velCommandCallback(const geometry_msgs::TwistConstPtr &command)
   {
     boost::mutex::scoped_lock lock(command_mutex_);
     ros::Time now = ros::Time::now();
@@ -179,8 +180,8 @@ public:
         (twist_command_.twist.angular.z != 0.0)) {
       twist_input_->preempt();
     }
-  }*/
-
+  }
+/******************************************************/
   virtual void update(const ros::Time &time, const ros::Duration &period)
   {
     boost::mutex::scoped_lock lock(command_mutex_);

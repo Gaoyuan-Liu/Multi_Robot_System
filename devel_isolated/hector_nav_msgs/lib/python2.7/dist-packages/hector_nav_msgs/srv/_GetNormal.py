@@ -11,7 +11,7 @@ import std_msgs.msg
 class GetNormalRequest(genpy.Message):
   _md5sum = "47dfdbd810b48d0a47b7ad67e4191bcc"
   _type = "hector_nav_msgs/GetNormalRequest"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """geometry_msgs/PointStamped point
 
 ================================================================================
@@ -62,7 +62,7 @@ float64 z
     """
     if args or kwds:
       super(GetNormalRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.point is None:
         self.point = geometry_msgs.msg.PointStamped()
     else:
@@ -121,7 +121,7 @@ float64 z
       (_x.point.point.x, _x.point.point.y, _x.point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -173,7 +173,7 @@ float64 z
       (_x.point.point.x, _x.point.point.y, _x.point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -203,7 +203,7 @@ import geometry_msgs.msg
 class GetNormalResponse(genpy.Message):
   _md5sum = "9a5880458dbcd28bf7ed1889c8ac7f8e"
   _type = "hector_nav_msgs/GetNormalResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """geometry_msgs/Vector3 normal
 
 
@@ -238,7 +238,7 @@ float64 z"""
     """
     if args or kwds:
       super(GetNormalResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.normal is None:
         self.normal = geometry_msgs.msg.Vector3()
     else:
@@ -276,7 +276,7 @@ float64 z"""
       (_x.normal.x, _x.normal.y, _x.normal.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -307,7 +307,7 @@ float64 z"""
       (_x.normal.x, _x.normal.y, _x.normal.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

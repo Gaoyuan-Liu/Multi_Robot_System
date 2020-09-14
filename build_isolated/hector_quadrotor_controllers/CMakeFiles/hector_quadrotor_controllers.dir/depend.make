@@ -11,9 +11,6 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /home
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/limiters.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/quadrotor_interface.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader_core.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/class_loader/exceptions.hpp
@@ -91,6 +88,7 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/attitude_controller.cpp.o: /opt/ros/melodic/include/ros/message.h
@@ -184,9 +182,6 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /home
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/limiters.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/quadrotor_interface.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader_core.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/class_loader/exceptions.hpp
@@ -264,6 +259,7 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/position_controller.cpp.o: /opt/ros/melodic/include/ros/message.h
@@ -358,9 +354,6 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /home
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/helpers.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/limiters.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_interface/include/hector_quadrotor_interface/quadrotor_interface.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/class_loader/class_loader_core.hpp
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/class_loader/exceptions.hpp
@@ -438,6 +431,7 @@ CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_quadrotor_controllers.dir/src/velocity_controller.cpp.o: /opt/ros/melodic/include/ros/message.h

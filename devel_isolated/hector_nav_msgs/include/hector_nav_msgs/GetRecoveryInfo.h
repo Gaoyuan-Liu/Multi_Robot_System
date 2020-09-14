@@ -57,8 +57,8 @@ struct DataType< ::hector_nav_msgs::GetRecoveryInfo > {
 };
 
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfoRequest> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfo > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfoRequest> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfo >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetRecoveryInfoRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::hector_nav_msgs::GetRecoveryInfoRequest>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfoRequest> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfo > 
+// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfoRequest> should match
+// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfo >
 template<>
 struct DataType< ::hector_nav_msgs::GetRecoveryInfoRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::hector_nav_msgs::GetRecoveryInfoRequest>
   }
 };
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfoResponse> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfo > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfoResponse> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetRecoveryInfo >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetRecoveryInfoResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::hector_nav_msgs::GetRecoveryInfoResponse>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfoResponse> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfo > 
+// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfoResponse> should match
+// service_traits::DataType< ::hector_nav_msgs::GetRecoveryInfo >
 template<>
 struct DataType< ::hector_nav_msgs::GetRecoveryInfoResponse>
 {

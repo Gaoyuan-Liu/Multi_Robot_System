@@ -103,10 +103,10 @@
 (setf (get hector_nav_msgs::GetRobotTrajectoryRequest :md5sum-) "c7bd40129c5786fc26351edbd33b8d33")
 (setf (get hector_nav_msgs::GetRobotTrajectoryRequest :datatype-) "hector_nav_msgs/GetRobotTrajectoryRequest")
 (setf (get hector_nav_msgs::GetRobotTrajectoryRequest :definition-)
-      "
-
-
-
+      "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 ---
 nav_msgs/Path trajectory
@@ -167,10 +167,10 @@ float64 w
 (setf (get hector_nav_msgs::GetRobotTrajectoryResponse :md5sum-) "c7bd40129c5786fc26351edbd33b8d33")
 (setf (get hector_nav_msgs::GetRobotTrajectoryResponse :datatype-) "hector_nav_msgs/GetRobotTrajectoryResponse")
 (setf (get hector_nav_msgs::GetRobotTrajectoryResponse :definition-)
-      "
-
-
-
+      "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 ---
 nav_msgs/Path trajectory

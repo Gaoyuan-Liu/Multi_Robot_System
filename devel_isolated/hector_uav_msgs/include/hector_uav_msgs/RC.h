@@ -69,6 +69,29 @@ struct RC_
 
 
 
+// reducing the odds to have name collisions with Windows.h 
+#if defined(_WIN32) && defined(ROLL)
+  #undef ROLL
+#endif
+#if defined(_WIN32) && defined(PITCH)
+  #undef PITCH
+#endif
+#if defined(_WIN32) && defined(YAW)
+  #undef YAW
+#endif
+#if defined(_WIN32) && defined(STEER)
+  #undef STEER
+#endif
+#if defined(_WIN32) && defined(HEIGHT)
+  #undef HEIGHT
+#endif
+#if defined(_WIN32) && defined(THRUST)
+  #undef THRUST
+#endif
+#if defined(_WIN32) && defined(BRAKE)
+  #undef BRAKE
+#endif
+
   enum {
     ROLL = 1u,
     PITCH = 2u,
@@ -115,6 +138,26 @@ ros::message_operations::Printer< ::hector_uav_msgs::RC_<ContainerAllocator> >::
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::hector_uav_msgs::RC_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::RC_<ContainerAllocator2> & rhs)
+{
+  return lhs.header == rhs.header &&
+    lhs.status == rhs.status &&
+    lhs.valid == rhs.valid &&
+    lhs.axis == rhs.axis &&
+    lhs.axis_function == rhs.axis_function &&
+    lhs.swit == rhs.swit &&
+    lhs.swit_function == rhs.swit_function;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::hector_uav_msgs::RC_<ContainerAllocator1> & lhs, const ::hector_uav_msgs::RC_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace hector_uav_msgs
 
 namespace ros
@@ -122,12 +165,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg'], 'actionlib_msgs': ['/opt/ros/melodic/share/actionlib_msgs/cmake/../msg'], 'hector_uav_msgs': ['/home/liu/Multi_Robot_System/src/hector_quadrotor/hector_uav_msgs/msg', '/home/liu/Multi_Robot_System/devel_isolated/hector_uav_msgs/share/hector_uav_msgs/msg'], 'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

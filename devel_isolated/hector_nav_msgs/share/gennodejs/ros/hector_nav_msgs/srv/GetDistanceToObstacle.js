@@ -69,10 +69,10 @@ class GetDistanceToObstacleRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
-    
-    
-    
+    # Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+    # in the direction of the point
+    #
+    # All units are meters.
     
     geometry_msgs/PointStamped point
     

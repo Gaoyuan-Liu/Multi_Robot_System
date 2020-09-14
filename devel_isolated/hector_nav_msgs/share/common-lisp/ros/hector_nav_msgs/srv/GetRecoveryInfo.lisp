@@ -96,10 +96,10 @@
   "edd6e579a08e5c27f2b7fcfa4c39b7bb")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<GetRecoveryInfo-request>)))
   "Returns full string definition for message of type '<GetRecoveryInfo-request>"
-  (cl:format cl:nil "~%~%~%~%time request_time~%float64 request_radius~%~%~%"))
+  (cl:format cl:nil "# Returns the path travelled to get to req_pose (pose determined by request_time) ~%# up to request_radius away from req_pose.~%#~%~%time request_time~%float64 request_radius ~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'GetRecoveryInfo-request)))
   "Returns full string definition for message of type 'GetRecoveryInfo-request"
-  (cl:format cl:nil "~%~%~%~%time request_time~%float64 request_radius~%~%~%"))
+  (cl:format cl:nil "# Returns the path travelled to get to req_pose (pose determined by request_time) ~%# up to request_radius away from req_pose.~%#~%~%time request_time~%float64 request_radius ~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <GetRecoveryInfo-request>))
   (cl:+ 0
      8

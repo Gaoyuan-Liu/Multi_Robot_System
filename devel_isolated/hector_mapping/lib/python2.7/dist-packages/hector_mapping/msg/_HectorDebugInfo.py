@@ -10,7 +10,7 @@ import hector_mapping.msg
 class HectorDebugInfo(genpy.Message):
   _md5sum = "4d33c0696c0c536f5c1447c260756674"
   _type = "hector_mapping/HectorDebugInfo"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """HectorIterData[] iterData
 ================================================================================
 MSG: hector_mapping/HectorIterData
@@ -39,7 +39,7 @@ float64 determinant2d
     """
     if args or kwds:
       super(HectorDebugInfo, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.iterData is None:
         self.iterData = []
     else:
@@ -91,7 +91,7 @@ float64 determinant2d
         self.iterData.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -136,7 +136,7 @@ float64 determinant2d
         self.iterData.append(val1)
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

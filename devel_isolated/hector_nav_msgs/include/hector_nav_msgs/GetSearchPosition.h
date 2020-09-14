@@ -57,8 +57,8 @@ struct DataType< ::hector_nav_msgs::GetSearchPosition > {
 };
 
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPositionRequest> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPosition > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPositionRequest> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPosition >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetSearchPositionRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::hector_nav_msgs::GetSearchPositionRequest>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetSearchPositionRequest> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetSearchPosition > 
+// service_traits::DataType< ::hector_nav_msgs::GetSearchPositionRequest> should match
+// service_traits::DataType< ::hector_nav_msgs::GetSearchPosition >
 template<>
 struct DataType< ::hector_nav_msgs::GetSearchPositionRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::hector_nav_msgs::GetSearchPositionRequest>
   }
 };
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPositionResponse> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPosition > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPositionResponse> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetSearchPosition >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetSearchPositionResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::hector_nav_msgs::GetSearchPositionResponse>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetSearchPositionResponse> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetSearchPosition > 
+// service_traits::DataType< ::hector_nav_msgs::GetSearchPositionResponse> should match
+// service_traits::DataType< ::hector_nav_msgs::GetSearchPosition >
 template<>
 struct DataType< ::hector_nav_msgs::GetSearchPositionResponse>
 {

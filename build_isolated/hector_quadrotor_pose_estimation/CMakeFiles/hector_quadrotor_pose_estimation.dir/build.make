@@ -96,6 +96,7 @@ hector_quadrotor_pose_estimation_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /home/liu/Multi_Robot_System/devel_isolated/hector_pose_estimation_core/lib/libhector_pose_estimation.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libnodeletlib.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libbondcpp.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libclass_loader.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /usr/lib/libPocoFoundation.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /usr/lib/x86_64-linux-gnu/libdl.so
@@ -111,7 +112,6 @@ hector_quadrotor_pose_estimation_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libmessage_filters.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_pose_estimation/lib/hector_quadrotor_pose_estimation/hector_quadrotor_pose_estimation: /opt/ros/melodic/lib/librosconsole_log4cxx.so

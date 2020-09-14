@@ -181,7 +181,6 @@ hector_gazebo_ros_baro_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /usr/local/lib/libboost_atomic.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
@@ -242,7 +241,6 @@ hector_gazebo_ros_baro_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_model/lib/libhector_quadrotor_aerodynamics.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so

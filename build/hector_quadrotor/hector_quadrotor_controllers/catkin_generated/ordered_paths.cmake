@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/melodic/lib")
+set(ORDERED_PATHS "/home/liu/Multi_Robot_System/devel/lib;/opt/ros/melodic/lib")

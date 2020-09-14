@@ -130,10 +130,10 @@
 (setf (get hector_nav_msgs::GetDistanceToObstacleRequest :md5sum-) "db18115f41079cd33136cf1e23b216ad")
 (setf (get hector_nav_msgs::GetDistanceToObstacleRequest :datatype-) "hector_nav_msgs/GetDistanceToObstacleRequest")
 (setf (get hector_nav_msgs::GetDistanceToObstacleRequest :definition-)
-      "
-
-
-
+      "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 geometry_msgs/PointStamped point
 
@@ -205,10 +205,10 @@ float64 z
 (setf (get hector_nav_msgs::GetDistanceToObstacleResponse :md5sum-) "db18115f41079cd33136cf1e23b216ad")
 (setf (get hector_nav_msgs::GetDistanceToObstacleResponse :datatype-) "hector_nav_msgs/GetDistanceToObstacleResponse")
 (setf (get hector_nav_msgs::GetDistanceToObstacleResponse :definition-)
-      "
-
-
-
+      "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 geometry_msgs/PointStamped point
 

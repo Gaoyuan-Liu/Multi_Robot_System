@@ -3,9 +3,6 @@
 
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/servo_plugin.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_plugins/src/servo_plugin.cpp
-CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point32.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/geometry_msgs/PointStamped.h
@@ -34,6 +31,7 @@ CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/incl
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o: /opt/ros/melodic/include/ros/message.h

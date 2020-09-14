@@ -97,7 +97,6 @@ panda_trajbasedERG_potentialfields_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libmessage_filters.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libtf2.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libroscpp_serialization.so
@@ -123,11 +122,17 @@ panda_trajbasedERG_potentialfields_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libclass_loader.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/libPocoFoundation.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libroslib.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/librospack.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/librosconsole_bridge.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/panda_erg/lib/panda_erg/panda_trajbasedERG_potentialfields: /opt/ros/melodic/lib/librosconsole_backend_interface.so

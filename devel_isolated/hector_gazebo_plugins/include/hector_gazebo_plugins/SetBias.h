@@ -57,8 +57,8 @@ struct DataType< ::hector_gazebo_plugins::SetBias > {
 };
 
 
-// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBiasRequest> should match 
-// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBias > 
+// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBiasRequest> should match
+// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBias >
 template<>
 struct MD5Sum< ::hector_gazebo_plugins::SetBiasRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::hector_gazebo_plugins::SetBiasRequest>
   }
 };
 
-// service_traits::DataType< ::hector_gazebo_plugins::SetBiasRequest> should match 
-// service_traits::DataType< ::hector_gazebo_plugins::SetBias > 
+// service_traits::DataType< ::hector_gazebo_plugins::SetBiasRequest> should match
+// service_traits::DataType< ::hector_gazebo_plugins::SetBias >
 template<>
 struct DataType< ::hector_gazebo_plugins::SetBiasRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::hector_gazebo_plugins::SetBiasRequest>
   }
 };
 
-// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBiasResponse> should match 
-// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBias > 
+// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBiasResponse> should match
+// service_traits::MD5Sum< ::hector_gazebo_plugins::SetBias >
 template<>
 struct MD5Sum< ::hector_gazebo_plugins::SetBiasResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::hector_gazebo_plugins::SetBiasResponse>
   }
 };
 
-// service_traits::DataType< ::hector_gazebo_plugins::SetBiasResponse> should match 
-// service_traits::DataType< ::hector_gazebo_plugins::SetBias > 
+// service_traits::DataType< ::hector_gazebo_plugins::SetBiasResponse> should match
+// service_traits::DataType< ::hector_gazebo_plugins::SetBias >
 template<>
 struct DataType< ::hector_gazebo_plugins::SetBiasResponse>
 {

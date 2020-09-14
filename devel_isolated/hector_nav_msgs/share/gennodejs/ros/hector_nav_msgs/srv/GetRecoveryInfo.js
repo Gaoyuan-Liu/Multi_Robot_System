@@ -79,12 +79,12 @@ class GetRecoveryInfoRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
-    
-    
+    # Returns the path travelled to get to req_pose (pose determined by request_time) 
+    # up to request_radius away from req_pose.
+    #
     
     time request_time
-    float64 request_radius
+    float64 request_radius 
     
     `;
   }

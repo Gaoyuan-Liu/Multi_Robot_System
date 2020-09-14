@@ -4,9 +4,6 @@
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_thermal_camera/include/hector_gazebo_thermal_camera/gazebo_ros_thermal_camera.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_camera.cpp
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_depth_camera_plugin.cpp
-CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/camera_info_manager/camera_info_manager.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/BoolParameter.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/dynamic_reconfigure/Config.h
@@ -51,6 +48,7 @@ CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_came
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/gazebo_ros_thermal_depth_camera.dir/src/gazebo_ros_thermal_depth_camera_plugin.cpp.o: /opt/ros/melodic/include/ros/message.h

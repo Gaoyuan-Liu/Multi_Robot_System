@@ -31,9 +31,6 @@ CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_node
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /home/liu/Multi_Robot_System/src/hector_localization/hector_pose_estimation_core/include/hector_pose_estimation/types.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_pose_estimation/include/hector_quadrotor_pose_estimation/pose_estimation_node.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_pose_estimation/src/pose_estimation_nodelet.cpp
-CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.hpp
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/class_loader/class_loader_core.hpp
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/class_loader/exceptions.hpp
@@ -89,6 +86,7 @@ CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_node
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_quadrotor_pose_estimation_nodelet.dir/src/pose_estimation_nodelet.cpp.o: /opt/ros/melodic/include/ros/message.h

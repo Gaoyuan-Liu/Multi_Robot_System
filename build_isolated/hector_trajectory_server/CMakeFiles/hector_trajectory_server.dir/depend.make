@@ -8,9 +8,6 @@ CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /hom
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /home/liu/Multi_Robot_System/devel_isolated/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectoryRequest.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /home/liu/Multi_Robot_System/devel_isolated/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectoryResponse.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /home/liu/Multi_Robot_System/src/hector_slam/hector_trajectory_server/src/hector_trajectory_server.cpp
-CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point32.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/geometry_msgs/PointStamped.h
@@ -40,6 +37,7 @@ CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o: /opt/ros/melodic/include/ros/message.h

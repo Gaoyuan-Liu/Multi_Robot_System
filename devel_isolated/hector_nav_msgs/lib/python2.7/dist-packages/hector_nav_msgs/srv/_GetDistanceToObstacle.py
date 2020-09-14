@@ -11,11 +11,11 @@ import std_msgs.msg
 class GetDistanceToObstacleRequest(genpy.Message):
   _md5sum = "47dfdbd810b48d0a47b7ad67e4191bcc"
   _type = "hector_nav_msgs/GetDistanceToObstacleRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
-
-
-
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# Returns the distance to the next obstacle from the origin of frame point.header.frame_id
+# in the direction of the point
+#
+# All units are meters.
 
 geometry_msgs/PointStamped point
 
@@ -67,7 +67,7 @@ float64 z
     """
     if args or kwds:
       super(GetDistanceToObstacleRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.point is None:
         self.point = geometry_msgs.msg.PointStamped()
     else:
@@ -126,7 +126,7 @@ float64 z
       (_x.point.point.x, _x.point.point.y, _x.point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -178,7 +178,7 @@ float64 z
       (_x.point.point.x, _x.point.point.y, _x.point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -209,7 +209,7 @@ import std_msgs.msg
 class GetDistanceToObstacleResponse(genpy.Message):
   _md5sum = "019a8fc3bf7fd73c014dc08523397f1c"
   _type = "hector_nav_msgs/GetDistanceToObstacleResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float32 distance
 geometry_msgs/PointStamped end_point
 
@@ -264,7 +264,7 @@ float64 z
     """
     if args or kwds:
       super(GetDistanceToObstacleResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.distance is None:
         self.distance = 0.
       if self.end_point is None:
@@ -326,7 +326,7 @@ float64 z
       (_x.end_point.point.x, _x.end_point.point.y, _x.end_point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -378,24 +378,24 @@ float64 z
       (_x.end_point.point.x, _x.end_point.point.y, _x.end_point.point.z,) = _get_struct_3d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_f3I = None
-def _get_struct_f3I():
-    global _struct_f3I
-    if _struct_f3I is None:
-        _struct_f3I = struct.Struct("<f3I")
-    return _struct_f3I
 _struct_3d = None
 def _get_struct_3d():
     global _struct_3d
     if _struct_3d is None:
         _struct_3d = struct.Struct("<3d")
     return _struct_3d
+_struct_f3I = None
+def _get_struct_f3I():
+    global _struct_f3I
+    if _struct_f3I is None:
+        _struct_f3I = struct.Struct("<f3I")
+    return _struct_f3I
 class GetDistanceToObstacle(object):
   _type          = 'hector_nav_msgs/GetDistanceToObstacle'
   _md5sum = 'db18115f41079cd33136cf1e23b216ad'

@@ -131,7 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/liu/Multi_Robot_System/build/gtest/cmake_install.cmake")
-  include("/home/liu/Multi_Robot_System/build/panda/HIRO_Panda_TRAC_IK/cmake_install.cmake")
+  include("/home/liu/Multi_Robot_System/build/hector_quadrotor/hector_quadrotor_controllers/cmake_install.cmake")
 
 endif()
 

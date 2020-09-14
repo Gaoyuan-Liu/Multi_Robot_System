@@ -10,9 +10,6 @@ CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsio
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_gazebo_plugins/src/gazebo_quadrotor_propulsion.cpp
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_model/include/hector_quadrotor_model/helpers.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_model/include/hector_quadrotor_model/quadrotor_propulsion.h
-CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/geometry_msgs/Wrench.h
@@ -32,6 +29,7 @@ CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsio
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o: /opt/ros/melodic/include/ros/message.h

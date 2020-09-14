@@ -4,9 +4,6 @@
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_gazebo/hector_gazebo_plugins/include/hector_gazebo_plugins/update_timer.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_gazebo_plugins/include/hector_quadrotor_gazebo_plugins/gazebo_quadrotor_simple_controller.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_gazebo_plugins/src/gazebo_quadrotor_simple_controller.cpp
-CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/boost_161_condition_variable.h
-CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable.h
-CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/boost_161_pthread_condition_variable_fwd.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/geometry_msgs/Point.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/geometry_msgs/Pose.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
@@ -31,6 +28,7 @@ CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_si
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/exceptions.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/forwards.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/init.h
+CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/internal/condition_variable.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/macros.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/master.h
 CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o: /opt/ros/melodic/include/ros/message.h

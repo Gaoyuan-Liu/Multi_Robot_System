@@ -123,7 +123,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_thread.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_date_time.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_system.so
@@ -169,6 +168,7 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libgazebo_ros_vacuum_gripper.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libnodeletlib.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libbondcpp.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/liburdf.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
@@ -195,7 +195,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libcamera_calibration_parsers.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
@@ -246,7 +245,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libvision_reconfigure.so
@@ -308,7 +306,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libcamera_calibration_parsers.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
@@ -324,6 +321,21 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_thread.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_system.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/local/lib/libboost_filesystem.so
@@ -336,7 +348,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libsdformat.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libvision_reconfigure.so
@@ -398,7 +409,6 @@ gazebo_ros_thermal_camera_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libcamera_calibration_parsers.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_gazebo_thermal_camera/lib/libgazebo_ros_thermal_camera.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so

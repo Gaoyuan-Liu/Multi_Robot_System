@@ -9,7 +9,7 @@ import struct
 class HectorIterData(genpy.Message):
   _md5sum = "ecedaa7e26b5fc817a1add44c17fec5f"
   _type = "hector_mapping/HectorIterData"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float64[9] hessian
 float64 conditionNum
 float64 determinant
@@ -35,7 +35,7 @@ float64 determinant2d
     """
     if args or kwds:
       super(HectorIterData, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.hessian is None:
         self.hessian = [0.] * 9
       if self.conditionNum is None:
@@ -87,7 +87,7 @@ float64 determinant2d
       (_x.conditionNum, _x.determinant, _x.conditionNum2d, _x.determinant2d,) = _get_struct_4d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -120,7 +120,7 @@ float64 determinant2d
       (_x.conditionNum, _x.determinant, _x.conditionNum2d, _x.determinant2d,) = _get_struct_4d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

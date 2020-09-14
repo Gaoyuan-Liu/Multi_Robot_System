@@ -38,10 +38,10 @@
   "c7bd40129c5786fc26351edbd33b8d33")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<GetRobotTrajectory-request>)))
   "Returns full string definition for message of type '<GetRobotTrajectory-request>"
-  (cl:format cl:nil "~%~%~%~%~%~%~%"))
+  (cl:format cl:nil "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id~%# in the direction of the point~%#~%# All units are meters.~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'GetRobotTrajectory-request)))
   "Returns full string definition for message of type 'GetRobotTrajectory-request"
-  (cl:format cl:nil "~%~%~%~%~%~%~%"))
+  (cl:format cl:nil "# Returns the distance to the next obstacle from the origin of frame point.header.frame_id~%# in the direction of the point~%#~%# All units are meters.~%~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <GetRobotTrajectory-request>))
   (cl:+ 0
 ))

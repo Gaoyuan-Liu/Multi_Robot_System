@@ -62,6 +62,20 @@ ros::message_operations::Printer< ::hector_mapping::HectorDebugInfo_<ContainerAl
 return s;
 }
 
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator==(const ::hector_mapping::HectorDebugInfo_<ContainerAllocator1> & lhs, const ::hector_mapping::HectorDebugInfo_<ContainerAllocator2> & rhs)
+{
+  return lhs.iterData == rhs.iterData;
+}
+
+template<typename ContainerAllocator1, typename ContainerAllocator2>
+bool operator!=(const ::hector_mapping::HectorDebugInfo_<ContainerAllocator1> & lhs, const ::hector_mapping::HectorDebugInfo_<ContainerAllocator2> & rhs)
+{
+  return !(lhs == rhs);
+}
+
+
 } // namespace hector_mapping
 
 namespace ros
@@ -69,12 +83,6 @@ namespace ros
 namespace message_traits
 {
 
-
-
-// BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'hector_mapping': ['/home/liu/Multi_Robot_System/src/hector_slam/hector_mapping/msg']}
-
-// !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
 
 

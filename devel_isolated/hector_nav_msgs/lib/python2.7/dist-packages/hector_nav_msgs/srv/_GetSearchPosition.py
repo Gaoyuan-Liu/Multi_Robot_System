@@ -11,8 +11,8 @@ import std_msgs.msg
 class GetSearchPositionRequest(genpy.Message):
   _md5sum = "a579e8b989d066f6c17946ab060a6ff9"
   _type = "hector_nav_msgs/GetSearchPositionRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """#Returns a suggested search/observation position for an object of interest located at ooi_pose
 
 geometry_msgs/PoseStamped ooi_pose
 float32 distance
@@ -80,7 +80,7 @@ float64 w
     """
     if args or kwds:
       super(GetSearchPositionRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.ooi_pose is None:
         self.ooi_pose = geometry_msgs.msg.PoseStamped()
       if self.distance is None:
@@ -142,7 +142,7 @@ float64 w
       (_x.ooi_pose.pose.position.x, _x.ooi_pose.pose.position.y, _x.ooi_pose.pose.position.z, _x.ooi_pose.pose.orientation.x, _x.ooi_pose.pose.orientation.y, _x.ooi_pose.pose.orientation.z, _x.ooi_pose.pose.orientation.w, _x.distance,) = _get_struct_7df().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -194,7 +194,7 @@ float64 w
       (_x.ooi_pose.pose.position.x, _x.ooi_pose.pose.position.y, _x.ooi_pose.pose.position.z, _x.ooi_pose.pose.orientation.x, _x.ooi_pose.pose.orientation.y, _x.ooi_pose.pose.orientation.z, _x.ooi_pose.pose.orientation.w, _x.distance,) = _get_struct_7df().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -225,7 +225,7 @@ import std_msgs.msg
 class GetSearchPositionResponse(genpy.Message):
   _md5sum = "6cc90c22cc49490b4dd1ef4798491231"
   _type = "hector_nav_msgs/GetSearchPositionResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """geometry_msgs/PoseStamped search_pose
 
 
@@ -293,7 +293,7 @@ float64 w
     """
     if args or kwds:
       super(GetSearchPositionResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.search_pose is None:
         self.search_pose = geometry_msgs.msg.PoseStamped()
     else:
@@ -352,7 +352,7 @@ float64 w
       (_x.search_pose.pose.position.x, _x.search_pose.pose.position.y, _x.search_pose.pose.position.z, _x.search_pose.pose.orientation.x, _x.search_pose.pose.orientation.y, _x.search_pose.pose.orientation.z, _x.search_pose.pose.orientation.w,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -404,7 +404,7 @@ float64 w
       (_x.search_pose.pose.position.x, _x.search_pose.pose.position.y, _x.search_pose.pose.position.z, _x.search_pose.pose.orientation.x, _x.search_pose.pose.orientation.y, _x.search_pose.pose.orientation.z, _x.search_pose.pose.orientation.w,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

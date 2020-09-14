@@ -80,7 +80,7 @@ class GetSearchPositionRequest {
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    
+    #Returns a suggested search/observation position for an object of interest located at ooi_pose
     
     geometry_msgs/PoseStamped ooi_pose
     float32 distance

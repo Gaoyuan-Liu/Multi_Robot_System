@@ -156,12 +156,12 @@
 (setf (get hector_nav_msgs::GetRecoveryInfoRequest :md5sum-) "edd6e579a08e5c27f2b7fcfa4c39b7bb")
 (setf (get hector_nav_msgs::GetRecoveryInfoRequest :datatype-) "hector_nav_msgs/GetRecoveryInfoRequest")
 (setf (get hector_nav_msgs::GetRecoveryInfoRequest :definition-)
-      "
-
-
+      "# Returns the path travelled to get to req_pose (pose determined by request_time) 
+# up to request_radius away from req_pose.
+#
 
 time request_time
-float64 request_radius
+float64 request_radius 
 ---
 nav_msgs/Path trajectory_radius_entry_pose_to_req_pose
 geometry_msgs/PoseStamped radius_entry_pose
@@ -223,12 +223,12 @@ float64 w
 (setf (get hector_nav_msgs::GetRecoveryInfoResponse :md5sum-) "edd6e579a08e5c27f2b7fcfa4c39b7bb")
 (setf (get hector_nav_msgs::GetRecoveryInfoResponse :datatype-) "hector_nav_msgs/GetRecoveryInfoResponse")
 (setf (get hector_nav_msgs::GetRecoveryInfoResponse :definition-)
-      "
-
-
+      "# Returns the path travelled to get to req_pose (pose determined by request_time) 
+# up to request_radius away from req_pose.
+#
 
 time request_time
-float64 request_radius
+float64 request_radius 
 ---
 nav_msgs/Path trajectory_radius_entry_pose_to_req_pose
 geometry_msgs/PoseStamped radius_entry_pose

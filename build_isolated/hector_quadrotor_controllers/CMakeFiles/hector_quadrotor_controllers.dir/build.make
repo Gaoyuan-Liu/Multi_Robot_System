@@ -147,14 +147,6 @@ hector_quadrotor_controllers_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/librealtime_tools.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_interface/lib/libhector_quadrotor_interface.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/libPocoFoundation.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libroslib.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/librospack.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libtf.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/liborocos-kdl.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
@@ -163,7 +155,6 @@ hector_quadrotor_controllers_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libmessage_filters.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/librosconsole.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
 /home/liu/Multi_Robot_System/devel_isolated/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so

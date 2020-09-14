@@ -57,8 +57,8 @@ struct DataType< ::hector_nav_msgs::GetDistanceToObstacle > {
 };
 
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleRequest> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacle > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleRequest> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacle >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleRequest>
 {
@@ -72,8 +72,8 @@ struct MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleRequest>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacleRequest> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacle > 
+// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacleRequest> should match
+// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacle >
 template<>
 struct DataType< ::hector_nav_msgs::GetDistanceToObstacleRequest>
 {
@@ -87,8 +87,8 @@ struct DataType< ::hector_nav_msgs::GetDistanceToObstacleRequest>
   }
 };
 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleResponse> should match 
-// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacle > 
+// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleResponse> should match
+// service_traits::MD5Sum< ::hector_nav_msgs::GetDistanceToObstacle >
 template<>
 struct MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleResponse>
 {
@@ -102,8 +102,8 @@ struct MD5Sum< ::hector_nav_msgs::GetDistanceToObstacleResponse>
   }
 };
 
-// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacleResponse> should match 
-// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacle > 
+// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacleResponse> should match
+// service_traits::DataType< ::hector_nav_msgs::GetDistanceToObstacle >
 template<>
 struct DataType< ::hector_nav_msgs::GetDistanceToObstacleResponse>
 {

@@ -10,13 +10,13 @@ import genpy
 class GetRecoveryInfoRequest(genpy.Message):
   _md5sum = "3916a0c55958d5dd43204cd2fe5608f6"
   _type = "hector_nav_msgs/GetRecoveryInfoRequest"
-  _has_header = False #flag to mark the presence of a Header object
-  _full_text = """
-
-
+  _has_header = False  # flag to mark the presence of a Header object
+  _full_text = """# Returns the path travelled to get to req_pose (pose determined by request_time) 
+# up to request_radius away from req_pose.
+#
 
 time request_time
-float64 request_radius
+float64 request_radius 
 """
   __slots__ = ['request_time','request_radius']
   _slot_types = ['time','float64']
@@ -37,7 +37,7 @@ float64 request_radius
     """
     if args or kwds:
       super(GetRecoveryInfoRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.request_time is None:
         self.request_time = genpy.Time()
       if self.request_radius is None:
@@ -79,7 +79,7 @@ float64 request_radius
       self.request_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -111,7 +111,7 @@ float64 request_radius
       self.request_time.canon()
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -137,7 +137,7 @@ import std_msgs.msg
 class GetRecoveryInfoResponse(genpy.Message):
   _md5sum = "a93581be8e34e3c09aeafc6b9b990ad5"
   _type = "hector_nav_msgs/GetRecoveryInfoResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """nav_msgs/Path trajectory_radius_entry_pose_to_req_pose
 geometry_msgs/PoseStamped radius_entry_pose
 geometry_msgs/PoseStamped req_pose
@@ -213,7 +213,7 @@ float64 w
     """
     if args or kwds:
       super(GetRecoveryInfoResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.trajectory_radius_entry_pose_to_req_pose is None:
         self.trajectory_radius_entry_pose_to_req_pose = nav_msgs.msg.Path()
       if self.radius_entry_pose is None:
@@ -249,7 +249,8 @@ float64 w
       buff.write(_struct_I.pack(length))
       for val1 in self.trajectory_radius_entry_pose_to_req_pose.poses:
         _v1 = val1.header
-        buff.write(_get_struct_I().pack(_v1.seq))
+        _x = _v1.seq
+        buff.write(_get_struct_I().pack(_x))
         _v2 = _v1.stamp
         _x = _v2
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -381,7 +382,7 @@ float64 w
       (_x.req_pose.pose.position.x, _x.req_pose.pose.position.y, _x.req_pose.pose.position.z, _x.req_pose.pose.orientation.x, _x.req_pose.pose.orientation.y, _x.req_pose.pose.orientation.z, _x.req_pose.pose.orientation.w,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -403,7 +404,8 @@ float64 w
       buff.write(_struct_I.pack(length))
       for val1 in self.trajectory_radius_entry_pose_to_req_pose.poses:
         _v11 = val1.header
-        buff.write(_get_struct_I().pack(_v11.seq))
+        _x = _v11.seq
+        buff.write(_get_struct_I().pack(_x))
         _v12 = _v11.stamp
         _x = _v12
         buff.write(_get_struct_2I().pack(_x.secs, _x.nsecs))
@@ -536,12 +538,36 @@ float64 w
       (_x.req_pose.pose.position.x, _x.req_pose.pose.position.y, _x.req_pose.pose.position.z, _x.req_pose.pose.orientation.x, _x.req_pose.pose.orientation.y, _x.req_pose.pose.orientation.z, _x.req_pose.pose.orientation.w,) = _get_struct_7d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
+_struct_2I = None
+def _get_struct_2I():
+    global _struct_2I
+    if _struct_2I is None:
+        _struct_2I = struct.Struct("<2I")
+    return _struct_2I
+_struct_3I = None
+def _get_struct_3I():
+    global _struct_3I
+    if _struct_3I is None:
+        _struct_3I = struct.Struct("<3I")
+    return _struct_3I
+_struct_3d = None
+def _get_struct_3d():
+    global _struct_3d
+    if _struct_3d is None:
+        _struct_3d = struct.Struct("<3d")
+    return _struct_3d
+_struct_4d = None
+def _get_struct_4d():
+    global _struct_4d
+    if _struct_4d is None:
+        _struct_4d = struct.Struct("<4d")
+    return _struct_4d
 _struct_7d = None
 def _get_struct_7d():
     global _struct_7d
@@ -554,30 +580,6 @@ def _get_struct_7d3I():
     if _struct_7d3I is None:
         _struct_7d3I = struct.Struct("<7d3I")
     return _struct_7d3I
-_struct_3I = None
-def _get_struct_3I():
-    global _struct_3I
-    if _struct_3I is None:
-        _struct_3I = struct.Struct("<3I")
-    return _struct_3I
-_struct_4d = None
-def _get_struct_4d():
-    global _struct_4d
-    if _struct_4d is None:
-        _struct_4d = struct.Struct("<4d")
-    return _struct_4d
-_struct_2I = None
-def _get_struct_2I():
-    global _struct_2I
-    if _struct_2I is None:
-        _struct_2I = struct.Struct("<2I")
-    return _struct_2I
-_struct_3d = None
-def _get_struct_3d():
-    global _struct_3d
-    if _struct_3d is None:
-        _struct_3d = struct.Struct("<3d")
-    return _struct_3d
 class GetRecoveryInfo(object):
   _type          = 'hector_nav_msgs/GetRecoveryInfo'
   _md5sum = 'edd6e579a08e5c27f2b7fcfa4c39b7bb'
