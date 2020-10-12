@@ -35,3 +35,4 @@ install(FILES
   quadrotor_controller_gazebo.xml
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+set( BOOST_ROOT "/usr/inlcude" )

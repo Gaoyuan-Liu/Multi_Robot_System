@@ -7,7 +7,7 @@
 <!--Set the gazebo world-->
 
  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find panda_gazebo)/world/panda.world"/>
+    <arg name="world_name" value="$(find panda_gazebo)/worlds/panda.world"/>
     <arg name="gui" value="true" />
     <arg name="paused" value="False"/>
     <arg name="use_sim_time" value="true"/>
@@ -16,20 +16,18 @@
 
 
 <!--Visualize manipulator robot-->
-<group ns="panda">
+<!--<group ns="panda">
   <include file="$(find panda_gazebo)/launch/panda_spawn.launch">
    <arg name="y" value="-1"/>
   </include>
   <include file="$(find panda_control)/launch/panda_effortcontrol.launch" />
   <node name="panda_trac_ik_taskspace" pkg="hiro_panda_ik" type="panda_trac_ik_taskspace" output="screen" />
-</group>
+</group>-->
 
 <!--Visualize drone-->
-<group ns="drone">
-  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
-    <!--<arg name="model" value="$(find hector_quadrotor_description)/urdf/quadrotor_hokuyo_utm30lx.gazebo.xacro"/>-->
-
-  </include>
-</group>
+<!--<group ns="drone">-->
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch"/>
+   
+<!--</group>-->
 
 </launch>

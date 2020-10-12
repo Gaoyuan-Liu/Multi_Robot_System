@@ -39,76 +39,76 @@ BUILD_GTEST:BOOL=OFF
 BUILD_SHARED_LIBS:BOOL=ON
 
 //Boost atomic library (debug)
-Boost_ATOMIC_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_atomic.so
+Boost_ATOMIC_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_atomic.so
 
 //Boost atomic library (release)
-Boost_ATOMIC_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_atomic.so
+Boost_ATOMIC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_atomic.so
 
 //Boost chrono library (debug)
-Boost_CHRONO_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_chrono.so
+Boost_CHRONO_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_chrono.so
 
 //Boost chrono library (release)
-Boost_CHRONO_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_chrono.so
+Boost_CHRONO_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_chrono.so
 
 //Boost date_time library (debug)
-Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_date_time.so
+Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
 
 //Boost date_time library (release)
-Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_date_time.so
+Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
 
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
 //Boost filesystem library (debug)
-Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_filesystem.so
+Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
 //Boost filesystem library (release)
-Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_filesystem.so
+Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/local/include
+Boost_INCLUDE_DIR:PATH=/usr/include
 
 //Boost iostreams library (debug)
-Boost_IOSTREAMS_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_iostreams.so
+Boost_IOSTREAMS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 
 //Boost iostreams library (release)
-Boost_IOSTREAMS_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_iostreams.so
+Boost_IOSTREAMS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
 
 //Boost library directory DEBUG
-Boost_LIBRARY_DIR_DEBUG:PATH=/usr/local/lib
+Boost_LIBRARY_DIR_DEBUG:PATH=/usr/lib/x86_64-linux-gnu
 
 //Boost library directory RELEASE
-Boost_LIBRARY_DIR_RELEASE:PATH=/usr/local/lib
+Boost_LIBRARY_DIR_RELEASE:PATH=/usr/lib/x86_64-linux-gnu
 
 //Boost program_options library (debug)
-Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_program_options.so
+Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
 
 //Boost program_options library (release)
-Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_program_options.so
+Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
 
 //Boost regex library (debug)
-Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_regex.so
+Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
 
 //Boost regex library (release)
-Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_regex.so
+Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
 
 //Boost signals library (debug)
-Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_signals.so
+Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
 
 //Boost signals library (release)
-Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_signals.so
+Boost_SIGNALS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
 
 //Boost system library (debug)
-Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_system.so
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
 
 //Boost system library (release)
-Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_system.so
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
 
 //Boost thread library (debug)
-Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libboost_thread.so
+Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
 //Boost thread library (release)
-Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libboost_thread.so
+Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
 
 //List of ';' separated packages to exclude
 CATKIN_BLACKLIST_PACKAGES:STRING=
@@ -127,7 +127,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=hector_quadrotor_controllers
+CATKIN_WHITELIST_PACKAGES:STRING=hector_quadrotor_controller_gazebo
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -1722,7 +1722,7 @@ hector_quadrotor_aerodynamics_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/li
 hector_quadrotor_controller_gazebo_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/hector_quadrotor/hector_quadrotor_controller_gazebo
 
 //Dependencies for the target
-hector_quadrotor_controller_gazebo_LIB_DEPENDS:STATIC=general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ccd.so;general;/usr/local/lib/libboost_thread.so;general;/usr/local/lib/libboost_system.so;general;/usr/local/lib/libboost_filesystem.so;general;/usr/local/lib/libboost_program_options.so;general;/usr/local/lib/libboost_regex.so;general;/usr/local/lib/libboost_iostreams.so;general;/usr/local/lib/libboost_date_time.so;general;/usr/local/lib/libboost_chrono.so;general;/usr/local/lib/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;general;OgreMain;general;pthread;general;/usr/local/lib/libboost_thread.so;general;/usr/local/lib/libboost_date_time.so;general;/usr/local/lib/libboost_system.so;general;/usr/local/lib/libboost_atomic.so;general;/usr/local/lib/libboost_chrono.so;general;/usr/local/lib/libboost_chrono.so;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;OgrePaging;general;OgreMain;general;pthread;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;general;/opt/ros/melodic/lib/libgazebo_ros_control.so;general;/opt/ros/melodic/lib/libdefault_robot_hw_sim.so;general;/opt/ros/melodic/lib/libcontroller_manager.so;general;/opt/ros/melodic/lib/libcontrol_toolbox.so;general;/opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/melodic/lib/librealtime_tools.so;general;/opt/ros/melodic/lib/libtransmission_interface_parser.so;general;/opt/ros/melodic/lib/libtransmission_interface_loader.so;general;/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so;general;/opt/ros/melodic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/librosconsole_bridge.so;general;/home/liu/Multi_Robot_System/devel/lib/libhector_quadrotor_interface.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ccd.so;general;/usr/local/lib/libboost_thread.so;general;/usr/local/lib/libboost_system.so;general;/usr/local/lib/libboost_filesystem.so;general;/usr/local/lib/libboost_program_options.so;general;/usr/local/lib/libboost_regex.so;general;/usr/local/lib/libboost_iostreams.so;general;/usr/local/lib/libboost_date_time.so;general;/usr/local/lib/libboost_chrono.so;general;/usr/local/lib/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;general;OgreMain;general;pthread;general;/usr/local/lib/libboost_thread.so;general;/usr/local/lib/libboost_date_time.so;general;/usr/local/lib/libboost_system.so;general;/usr/local/lib/libboost_atomic.so;general;/usr/local/lib/libboost_chrono.so;general;/usr/local/lib/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;OgrePaging;general;OgreMain;general;pthread;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;
+hector_quadrotor_controller_gazebo_LIB_DEPENDS:STATIC=general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;general;OgreMain;general;pthread;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;general;/opt/ros/melodic/lib/libgazebo_ros_control.so;general;/opt/ros/melodic/lib/libdefault_robot_hw_sim.so;general;/opt/ros/melodic/lib/libcontroller_manager.so;general;/opt/ros/melodic/lib/libcontrol_toolbox.so;general;/opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/melodic/lib/librealtime_tools.so;general;/opt/ros/melodic/lib/libtransmission_interface_parser.so;general;/opt/ros/melodic/lib/libtransmission_interface_loader.so;general;/opt/ros/melodic/lib/libtransmission_interface_loader_plugins.so;general;/opt/ros/melodic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/librosconsole_bridge.so;general;/home/liu/Multi_Robot_System/devel/lib/libhector_quadrotor_interface.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;BulletSoftBody;general;BulletDynamics;general;BulletCollision;general;LinearMath;general;/usr/lib/x86_64-linux-gnu/libSimTKsimbody.so;general;/usr/lib/x86_64-linux-gnu/libSimTKmath.so;general;/usr/lib/x86_64-linux-gnu/libSimTKcommon.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;/usr/lib/x86_64-linux-gnu/liblapack.so;general;/usr/lib/x86_64-linux-gnu/libblas.so;general;pthread;general;rt;general;dl;general;m;general;/usr/lib/x86_64-linux-gnu/libgazebo.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_client.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gui.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_sensors.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_rendering.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_physics.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_ode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_transport.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_msgs.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_util.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_common.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opcode.so;general;/usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libprotobuf.so;general;-pthread;general;/usr/lib/x86_64-linux-gnu/libsdformat.so;general;ignition-math4::ignition-math4;general;OgreMain;general;pthread;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;general;ignition-math4::ignition-math4;general;ignition-transport4::ignition-transport4;general;ignition-msgs1::ignition-msgs1;general;ignition-common1::ignition-common1;general;ignition-fuel_tools1::ignition-fuel_tools1;
 
 //Value Computed by CMake
 hector_quadrotor_controller_gazebo_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/hector_quadrotor/hector_quadrotor_controller_gazebo
@@ -1899,7 +1899,7 @@ kdl_parser_DIR:PATH=/opt/ros/melodic/share/kdl_parser/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtf2.so
+lib:FILEPATH=/home/liu/Multi_Robot_System/devel/lib/libhector_quadrotor_interface.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -3529,14 +3529,16 @@ ZeroMQ_libzmq _INCLUDEDIR:INTERNAL=
 ZeroMQ_libzmq _LIBDIR:INTERNAL=
 ZeroMQ_libzmq _PREFIX:INTERNAL=
 ZeroMQ_libzmq _VERSION:INTERNAL=
+//Last used BOOST_ROOT value.
+_BOOST_ROOT_LAST:INTERNAL=/usr/inlcude
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;iostreams;program_options;regex;signals;system;thread
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/include
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.
-_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/local/lib
+_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
 //Last used Boost_LIBRARY_DIR_RELEASE value.
-_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/local/lib
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
 //Last used Boost_NAMESPACE value.
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
