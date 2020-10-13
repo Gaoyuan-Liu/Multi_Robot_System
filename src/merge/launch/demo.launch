@@ -25,9 +25,9 @@
 </group>-->
 
 <!--Visualize drone-->
-<!--<group ns="drone">-->
+<group ns="drone">
   <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch"/>
    
-<!--</group>-->
+</group>
 
 </launch>
