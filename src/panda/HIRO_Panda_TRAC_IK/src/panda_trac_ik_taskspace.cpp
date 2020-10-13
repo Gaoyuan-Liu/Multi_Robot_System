@@ -55,6 +55,7 @@ int main(int argc, char **argv)
     _target_pose.position.y = 0.05;
     _target_pose.position.z = 0.75;
     
+    // This is where ik really happens
     KDL::JntArray ik_result = _panda_ik_service.perform_ik(_target_pose);// Send the is_feasible flag
 
     _joints_result = (_panda_ik_service.is_valid) ? ik_result : _joints_result;
