@@ -1,0 +1,2 @@
+1. To run panda's controller, you need to install the ros_control package:
+sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
