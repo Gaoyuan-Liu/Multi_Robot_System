@@ -16,17 +16,20 @@
 
 
 <!--Visualize manipulator robot-->
-<!--<group ns="panda">
+<group ns="panda">
   <include file="$(find panda_gazebo)/launch/panda_spawn.launch">
-   <arg name="y" value="-1"/>
+   <arg name="y" value="0"/>
+   <arg name="z" value="1.02"/>
   </include>
   <include file="$(find panda_control)/launch/panda_effortcontrol.launch" />
   <node name="panda_trac_ik_taskspace" pkg="hiro_panda_ik" type="panda_trac_ik_taskspace" output="screen" />
-</group>-->
+</group>
 
 <!--Visualize drone-->
-<!--<group ns="drone">
-  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch"/>
-</group>-->
+<group ns="drone">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+   <arg name="y" value="2"/>
+  </include>
+</group>
 
 </launch>
