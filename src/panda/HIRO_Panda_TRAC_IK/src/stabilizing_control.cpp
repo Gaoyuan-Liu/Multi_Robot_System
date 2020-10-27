@@ -50,6 +50,7 @@ StabilizingControl::StabilizingControl(string name) : n(name)
     // Liu
     sub_eecommand = n.subscribe("/panda/endeffector_command",1,&StabilizingControl::EeConmandCallback, this);
     // Liu end
+
     for(int i=0; i<q.size(); i++)
     {
         pub_joint_cmd[i] = n.advertise<std_msgs::Float64>("/panda/joint" + std::to_string(i+1) + "_position_controller/command",100);

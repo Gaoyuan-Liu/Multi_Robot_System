@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+
+    <!-- Launch the training system -->
+    <node pkg="ee_command" name="ee_control_test" type="position_command_talker.py" output="screen"/> 
+</launch>

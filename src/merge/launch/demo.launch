@@ -21,7 +21,11 @@
    <arg name="y" value="0"/>
    <arg name="z" value="1.02"/>
   </include>
+
+  <!-- Spawn the PID controller for each joint -->
   <include file="$(find panda_control)/launch/panda_effortcontrol.launch" />
+
+  <!-- Give the command of end-effector and calculate inverse kinematics -->
   <node name="panda_trac_ik_taskspace" pkg="hiro_panda_ik" type="panda_trac_ik_taskspace" output="screen" />
 </group>
 

@@ -1,0 +1,19 @@
+1. For drone:
+pub = rospy.Publisher('/drone/command/pose', PoseStamped, queue_size=100)
+
+The whole bunch of topic related to the command:
+/drone/command/attitude
+/drone/command/motor
+/drone/command/pose
+/drone/command/pose_marker
+/drone/command/thrust
+/drone/command/twist
+/drone/command/twist_limit
+/drone/command/wrench
+/drone/command/yawrate
+
+
+1. For Panda:
+self.position_pub = rospy.Publisher('/panda/endeffector_command', Float64MultiArray, queue_size=100)
+
+is_feasible_flag_raw = rospy.wait_for_message('/panda/is_feasible', Bool, timeout=100)

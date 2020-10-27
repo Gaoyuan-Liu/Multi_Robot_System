@@ -1,1 +1,1 @@
-rosservice call /enable_motors "enable: true"
+rosservice call /drone/enable_motors "enable: true"
