@@ -36,5 +36,6 @@
   <run_depend>hector_uav_msgs</run_depend>
   <run_depend>message_to_tf</run_depend>
   <run_depend>robot_state_publisher</run_depend>
+  <run_depend>crazyflie_description</run_depend>
 
 </package>

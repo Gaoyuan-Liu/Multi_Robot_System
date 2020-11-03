@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+<!--Set group names-->
+<arg name="manipulator_group_name" value="arm"/>
+<arg name="drone_group_name" default="drone"/>
+
+<!--Set the gazebo world-->
+
+ <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find panda_gazebo)/worlds/empty_lawn.world"/>
+    <arg name="gui" value="true" />
+    <arg name="paused" value="False"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="headless" value="false"/>
+  </include>
+
+
+
+<!--Visualize drone-->
+<group ns="drone_1">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+   <arg name="name" value="drone_1" />
+   <arg name="tf_prefix" value="drone_1" />
+   <arg name="y" value="0.5"/>
+  </include>
+</group>
+
+<group ns="drone_2">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+   <arg name="name" value="drone_2" />
+   <arg name="tf_prefix" value="drone_2" />
+   <arg name="y" value="0"/>
+  </include>
+</group>
+</launch>
