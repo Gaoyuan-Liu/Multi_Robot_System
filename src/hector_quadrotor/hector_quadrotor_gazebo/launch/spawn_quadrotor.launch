@@ -49,6 +49,7 @@
     <param name="tf_prefix" value="$(arg tf_prefix)" if="$(arg use_ground_truth_for_tf)" />
     <param name="tf_prefix" value="$(arg tf_prefix)/ground_truth" unless="$(arg use_ground_truth_for_tf)" />
   </node>
+
   <group if="$(arg use_pose_estimation)">
     <node name="pose_estimation" pkg="hector_quadrotor_pose_estimation" type="hector_quadrotor_pose_estimation" output="screen">
       <rosparam file="$(find hector_quadrotor_pose_estimation)/params/simulation.yaml" />
@@ -75,7 +76,7 @@
   </include>
 
   <!-- load actions -->
-  <!--<include file="$(find hector_quadrotor_actions)/launch/actions.launch" />-->
+  <include file="$(find hector_quadrotor_actions)/launch/actions.launch" />
 
   <!-- load aerodynamic and motor parameters -->
   <arg name="motors" default="robbe_2827-34_epp1045" />

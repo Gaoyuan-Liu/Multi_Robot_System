@@ -127,7 +127,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=hiro_panda_ik
+CATKIN_WHITELIST_PACKAGES:STRING=message_to_tf
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -1899,7 +1899,7 @@ kdl_parser_DIR:PATH=/opt/ros/melodic/share/kdl_parser/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libfranka_gripper.so
+lib:FILEPATH=/opt/ros/melodic/lib/libtopic_tools.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake

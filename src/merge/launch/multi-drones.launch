@@ -25,11 +25,11 @@
   </include>
 </group>
 
-<group ns="drone_2">
+<!--<group ns="drone_2">
   <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
    <arg name="name" value="drone_2" />
    <arg name="tf_prefix" value="drone_2" />
    <arg name="y" value="0"/>
   </include>
-</group>
+</group>-->
 </launch>

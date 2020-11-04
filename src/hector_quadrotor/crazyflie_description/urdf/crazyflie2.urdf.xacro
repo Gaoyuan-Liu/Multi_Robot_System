@@ -30,5 +30,5 @@
     </collision>
 
   </link>
-<xacro:include filename="$(find hector_quadrotor_description)/urdf/quadrotor.gazebo.urdf.xacro" />
+<xacro:include filename="$(find hector_quadrotor_gazebo)/urdf/quadrotor_plugins.gazebo.xacro" />
 </robot>
