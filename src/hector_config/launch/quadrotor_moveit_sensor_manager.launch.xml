@@ -1,0 +1,3 @@
+<launch>
+<rosparam command="load" file="$(find hector_config)/config/sensors_image.yaml" />
+</launch>

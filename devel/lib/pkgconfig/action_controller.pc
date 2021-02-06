@@ -1,0 +1,8 @@
+prefix=/home/liu/Multi_Robot_System/devel
+
+Name: action_controller
+Description: Description of action_controller
+Version: 0.1.0
+Cflags: -I/home/liu/Multi_Robot_System/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime moveit_core actionlib_msgs

@@ -1,0 +1,7 @@
+controller_list:
+  - name: fake_hector_group_controller
+    joints:
+      - virtual_joint
+#initial:  # Define initial robot poses.
+#  - group: hector_group
+#    pose: home

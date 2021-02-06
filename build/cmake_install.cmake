@@ -131,7 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/liu/Multi_Robot_System/build/gtest/cmake_install.cmake")
-  include("/home/liu/Multi_Robot_System/build/hector_localization/message_to_tf/cmake_install.cmake")
+  include("/home/liu/Multi_Robot_System/build/hector_slam/hector_mapping/cmake_install.cmake")
 
 endif()
 

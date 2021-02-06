@@ -152,7 +152,6 @@ hector_mapping_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /opt/ros/melodic/lib/libmessage_filters.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /opt/ros/melodic/lib/libroscpp.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /opt/ros/melodic/lib/libxmlrpcpp.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /opt/ros/melodic/lib/libtf2.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /opt/ros/melodic/lib/libroscpp_serialization.so
@@ -170,20 +169,16 @@ hector_mapping_EXTERNAL_OBJECTS =
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_thread.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_signals.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_chrono.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_system.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_date_time.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_atomic.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_thread.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_signals.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_chrono.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_system.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_date_time.so
-/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/local/lib/libboost_atomic.so
+/home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping: hector_slam/hector_mapping/CMakeFiles/hector_mapping.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liu/Multi_Robot_System/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/liu/Multi_Robot_System/devel/lib/hector_mapping/hector_mapping"
 	cd /home/liu/Multi_Robot_System/build/hector_slam/hector_mapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hector_mapping.dir/link.txt --verbose=$(VERBOSE)

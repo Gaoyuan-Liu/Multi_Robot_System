@@ -1,0 +1,11 @@
+1. MoveIt setup assistant:
+cd ~/ws_moveit/src
+rm -rf panda_moveit_config
+catkin clean panda_moveit_config
+roslaunch moveit_setup_assistant setup_assistant.launch
+
+2. Create a new ros package:
+catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+
+3. Check tf tree
+rosrun rqt_tf_tree rqt_tf_tree

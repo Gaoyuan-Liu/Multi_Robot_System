@@ -59,38 +59,14 @@ Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
 
-//Boost filesystem library (debug)
-Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-
-//Boost filesystem library (release)
-Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-
 //Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/include
-
-//Boost iostreams library (debug)
-Boost_IOSTREAMS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-
-//Boost iostreams library (release)
-Boost_IOSTREAMS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+Boost_INCLUDE_DIR:PATH=/usr/local/include
 
 //Boost library directory DEBUG
 Boost_LIBRARY_DIR_DEBUG:PATH=/usr/lib/x86_64-linux-gnu
 
 //Boost library directory RELEASE
 Boost_LIBRARY_DIR_RELEASE:PATH=/usr/lib/x86_64-linux-gnu
-
-//Boost program_options library (debug)
-Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
-
-//Boost program_options library (release)
-Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
-
-//Boost regex library (debug)
-Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
-
-//Boost regex library (release)
-Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
 
 //Boost signals library (debug)
 Boost_SIGNALS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_signals.so
@@ -127,7 +103,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=message_to_tf
+CATKIN_WHITELIST_PACKAGES:STRING=hector_mapping
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -312,7 +288,10 @@ DL_INCLUDE_DIRS:PATH=/usr/include
 DL_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libdl.so
 
 //Path to a program.
-DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+
+//Doxygen found
+DOXYGEN_FOUND:BOOL=TRUE
 
 //Path to a program.
 EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
@@ -1342,6 +1321,12 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Value Computed by CMake
+action_controller_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/action_controller
+
+//Value Computed by CMake
+action_controller_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/action_controller
+
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 
@@ -1540,6 +1525,12 @@ hector_compressed_map_transport_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/b
 
 //Value Computed by CMake
 hector_compressed_map_transport_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/hector_slam/hector_compressed_map_transport
+
+//Value Computed by CMake
+hector_config_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/hector_config
+
+//Value Computed by CMake
+hector_config_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/hector_config
 
 //Value Computed by CMake
 hector_gazebo_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/hector_gazebo/hector_gazebo
@@ -1899,7 +1890,7 @@ kdl_parser_DIR:PATH=/opt/ros/melodic/share/kdl_parser/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtopic_tools.so
+lib:FILEPATH=/opt/ros/melodic/lib/libkdl_conversions.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -1943,6 +1934,15 @@ moveit_ros_planning_interface_DIR:PATH=/opt/ros/melodic/share/moveit_ros_plannin
 //The directory containing a CMake configuration file for moveit_ros_warehouse.
 moveit_ros_warehouse_DIR:PATH=/opt/ros/melodic/share/moveit_ros_warehouse/cmake
 
+//Value Computed by CMake
+moveit_simple_controller_manager_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/moveit_simple_controller_manager
+
+//Dependencies for the target
+moveit_simple_controller_manager_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libmoveit_exceptions.so;general;/opt/ros/melodic/lib/libmoveit_background_processing.so;general;/opt/ros/melodic/lib/libmoveit_kinematics_base.so;general;/opt/ros/melodic/lib/libmoveit_robot_model.so;general;/opt/ros/melodic/lib/libmoveit_transforms.so;general;/opt/ros/melodic/lib/libmoveit_robot_state.so;general;/opt/ros/melodic/lib/libmoveit_robot_trajectory.so;general;/opt/ros/melodic/lib/libmoveit_planning_interface.so;general;/opt/ros/melodic/lib/libmoveit_collision_detection.so;general;/opt/ros/melodic/lib/libmoveit_collision_detection_fcl.so;general;/opt/ros/melodic/lib/libmoveit_kinematic_constraints.so;general;/opt/ros/melodic/lib/libmoveit_planning_scene.so;general;/opt/ros/melodic/lib/libmoveit_constraint_samplers.so;general;/opt/ros/melodic/lib/libmoveit_planning_request_adapter.so;general;/opt/ros/melodic/lib/libmoveit_profiler.so;general;/opt/ros/melodic/lib/libmoveit_trajectory_processing.so;general;/opt/ros/melodic/lib/libmoveit_distance_field.so;general;/opt/ros/melodic/lib/libmoveit_collision_distance_field.so;general;/opt/ros/melodic/lib/libmoveit_kinematics_metrics.so;general;/opt/ros/melodic/lib/libmoveit_dynamics_solver.so;general;/opt/ros/melodic/lib/libmoveit_utils.so;general;/opt/ros/melodic/lib/libmoveit_test_utils.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/usr/lib/x86_64-linux-gnu/libfcl.so;general;/opt/ros/melodic/lib/libgeometric_shapes.so;general;/opt/ros/melodic/lib/liboctomap.so;general;/opt/ros/melodic/lib/liboctomath.so;general;/opt/ros/melodic/lib/libkdl_parser.so;general;/opt/ros/melodic/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/opt/ros/melodic/lib/librosconsole_bridge.so;general;/opt/ros/melodic/lib/librandom_numbers.so;general;/opt/ros/melodic/lib/libsrdfdom.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/melodic/lib/liborocos-kdl.so;general;/opt/ros/melodic/lib/liborocos-kdl.so.1.4.0;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;
+
+//Value Computed by CMake
+moveit_simple_controller_manager_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/moveit_simple_controller_manager
+
 //The directory containing a CMake configuration file for moveit_visual_tools.
 moveit_visual_tools_DIR:PATH=/opt/ros/melodic/share/moveit_visual_tools/cmake
 
@@ -1972,6 +1972,12 @@ panda_control_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/panda/panda_con
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
+//Value Computed by CMake
+quadrotor_moveit_config_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/quadrotor_moveit_config
+
+//Value Computed by CMake
+quadrotor_moveit_config_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/quadrotor_moveit_config
 
 //The directory containing a CMake configuration file for random_numbers.
 random_numbers_DIR:PATH=/opt/ros/melodic/share/random_numbers/cmake
@@ -2068,6 +2074,12 @@ trac_ik_lib_DIR:PATH=/opt/ros/melodic/share/trac_ik_lib/cmake
 
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/melodic/share/trajectory_msgs/cmake
+
+//Value Computed by CMake
+trajectory_subscriber_BINARY_DIR:STATIC=/home/liu/Multi_Robot_System/build/trajectory_subscriber
+
+//Value Computed by CMake
+trajectory_subscriber_SOURCE_DIR:STATIC=/home/liu/Multi_Robot_System/src/trajectory_subscriber
 
 //The directory containing a CMake configuration file for transmission_interface.
 transmission_interface_DIR:PATH=/opt/ros/melodic/share/transmission_interface/cmake
@@ -2286,28 +2298,12 @@ Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_DIR
 Boost_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
-Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
-Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
 Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_IOSTREAMS_LIBRARY_DEBUG
-Boost_IOSTREAMS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_IOSTREAMS_LIBRARY_RELEASE
-Boost_IOSTREAMS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LIBRARY_DIR_DEBUG
 Boost_LIBRARY_DIR_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
 Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG
-Boost_PROGRAM_OPTIONS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE
-Boost_PROGRAM_OPTIONS_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
-Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
-Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SIGNALS_LIBRARY_DEBUG
 Boost_SIGNALS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_SIGNALS_LIBRARY_RELEASE
@@ -3541,12 +3537,10 @@ ZeroMQ_libzmq _INCLUDEDIR:INTERNAL=
 ZeroMQ_libzmq _LIBDIR:INTERNAL=
 ZeroMQ_libzmq _PREFIX:INTERNAL=
 ZeroMQ_libzmq _VERSION:INTERNAL=
-//Last used BOOST_ROOT value.
-_BOOST_ROOT_LAST:INTERNAL=/usr/inlcude
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;iostreams;program_options;regex;signals;system;thread
+_Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;signals;system;thread
 //Last used Boost_INCLUDE_DIR value.
-_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/local/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.
 _Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
 //Last used Boost_LIBRARY_DIR_RELEASE value.

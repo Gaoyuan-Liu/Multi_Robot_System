@@ -1,0 +1,9 @@
+<!--rosrun action_controller action_controller -->
+<launch>
+  <node name="action_controller" pkg="action_controller" type="action_controller" ></node>
+
+  <!-- Run the main MoveIt executable -->
+  <include file="$(find hector_config)/launch/demo.launch">
+
+  </include>
+</launch>

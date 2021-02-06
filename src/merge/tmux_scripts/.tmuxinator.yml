@@ -1,0 +1,13 @@
+name: simulation
+root: ~/Multi_Robot_System
+#startup_window: status
+pre_window: source devel/setup.bash
+windows:
+  - visulization:
+      layout: tiled
+      panes: 
+        - roslaunch merge multi-drones.launch
+        - 'waitForSimulation; sleep 2;
+          rosservice call /drone_1/enable_motors "enable: true"'
+
+

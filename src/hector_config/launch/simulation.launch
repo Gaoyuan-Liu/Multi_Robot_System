@@ -1,0 +1,38 @@
+<launch>
+
+<arg name="config_pkg" default="$(find hector_config)"/>
+
+<arg name="debug" default="false"/>
+
+  <arg name="load_robot_description" default="true" />
+  <!-- load URDF, SRDF and joint_limits configuration -->
+  <include file="$(find hector_config)/launch/planning_context.launch">
+    <arg name="load_robot_description" value="$(arg load_robot_description)" />
+  </include>
+
+  <node pkg="tf" type="static_transform_publisher" name="world_tofootprint" args="0 0 0 0 0 0 world odom 5"/>
+  <node pkg="tf" type="static_transform_publisher" name="virtual_joint_broadcaster_0" args="0 0 0 0 0 0 base_footprint base_link 5"/>
+  <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 map world 5"/>
+  <node pkg="tf" type="static_transform_publisher" name="camera_frame_publish" args="0 0 0 0 0 0 hector_base_frontcam camera_depth_optical_frame 5"/>
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="/use_gui" value="false"/>
+    <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+  </node>
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
+
+  <include file="$(find hector_config)/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <arg name="fake_execution" value="true"/>
+    <arg name="info" value="true"/>
+    <arg name="debug" value="$(arg debug)"/>
+    <arg name="load_robot_description" value="$(arg load_robot_description)"/>
+  </include>
+
+  <include file="$(find hector_config)/launch/moveit_rviz.launch">
+    <arg name="rviz_config" value="$(find hector_config)/launch/moveit.rviz"/>
+    <arg name="debug" value="$(arg debug)"/>
+  </include>
+
+</launch>

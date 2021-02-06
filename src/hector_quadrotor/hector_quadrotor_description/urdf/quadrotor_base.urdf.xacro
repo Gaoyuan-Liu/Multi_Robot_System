@@ -7,6 +7,17 @@
 
   <!-- Main quadrotor link -->
   <xacro:macro name="quadrotor_base_macro">
+
+    <!--<link name="world"/>
+
+
+    <joint name="virtual_joint" type="floating">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <parent link="world"/>
+      <child link="base_link"/>
+    </joint>-->
+
+
     <link name="base_link">
       <inertial>
         <mass value="1.477" />

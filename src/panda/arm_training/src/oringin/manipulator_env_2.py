@@ -70,40 +70,40 @@ class ManipulatorEnv(gym.Env):
         endeffector_cmd.data = [0, 0 ,0]
 
         if action == 0:
-            endeffector_cmd.data[0] = self.current_command[0] + 0.1;
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0] + 0.1
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2]
         if action == 1:
-            endeffector_cmd.data[0] = self.current_command[0] - 0.1;
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0] - 0.1
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2]
         if action == 2:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1] + 0.1;
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1] + 0.1
+            endeffector_cmd.data[2] = self.current_command[2]
         if action == 3:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1] - 0.1;
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1] - 0.1
+            endeffector_cmd.data[2] = self.current_command[2]
         if action == 4:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2] + 0.1;
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2] + 0.1
         if action == 5:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2] - 0.1;
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2] - 0.1
         if action == 6:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2]
         #feasible = self.is_command_feasible(endeffector_cmd)
         command_state_raw = self.calculate_state_number(endeffector_cmd.data[0], endeffector_cmd.data[1], endeffector_cmd.data[2])
         # Check blacklist
         if command_state_raw in self.blacklist:
-            endeffector_cmd.data[0] = self.current_command[0];
-            endeffector_cmd.data[1] = self.current_command[1];
-            endeffector_cmd.data[2] = self.current_command[2];
+            endeffector_cmd.data[0] = self.current_command[0]
+            endeffector_cmd.data[1] = self.current_command[1]
+            endeffector_cmd.data[2] = self.current_command[2]
 
         self.gazebo.unpauseSim()
         # The first time to publishe command in this step
